@@ -12,6 +12,21 @@
         android:orientation="vertical" >
 
         <TextView
+            android:id="@+id/title"
+            style="@style/ContentText"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"
+            android:textColor="@color/textDark"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            style="@style/ContentText"
+            android:textColor="@color/textLight"
+            android:textSize="@dimen/caption_text_size"
+            android:text="@string/subtitle" />
+
+        <TextView
             android:id="@+id/paragraph1"
             style="@style/ContentText"
             android:textColor="@color/textDark"
